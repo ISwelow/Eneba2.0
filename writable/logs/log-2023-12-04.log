@@ -1,0 +1,767 @@
+INFO - 2023-12-04 05:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 05:02:11 --> Call to a member function like() on null
+in APPPATH\Controllers\User.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 05:26:29 --> Call to a member function like() on null
+in APPPATH\Controllers\User.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 05:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 06:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 06:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 06:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 06:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 06:51:14 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Controllers\\UserController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 06:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 06:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 06:55:35 --> Attempt to read property "idJuego" on array
+in APPPATH\Views\Juegos\editar.php on line 8.
+ 1 APPPATH\Views\Juegos\editar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idJuego" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 06:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 06:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 06:56:02 --> Attempt to read property "idJuego" on array
+in APPPATH\Views\Juegos\editar.php on line 8.
+ 1 APPPATH\Views\Juegos\editar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idJuego" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 07:01:24 --> Undefined variable $Juegos
+in APPPATH\Views\Juegos\editar.php on line 10.
+ 1 APPPATH\Views\Juegos\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Juegos', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 07:01:26 --> Undefined variable $Juegos
+in APPPATH\Views\Juegos\editar.php on line 10.
+ 1 APPPATH\Views\Juegos\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Juegos', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 07:03:54 --> Undefined variable $help
+in APPPATH\Views\Juegos\editar.php on line 11.
+ 1 APPPATH\Views\Juegos\editar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $help', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 07:04:18 --> Undefined variable $Juegos
+in APPPATH\Views\Juegos\editar.php on line 11.
+ 1 APPPATH\Views\Juegos\editar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Juegos', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 07:05:01 --> Undefined variable $Juegos
+in APPPATH\Views\Juegos\editar.php on line 10.
+ 1 APPPATH\Views\Juegos\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Juegos', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 07:08:02 --> Undefined variable $Juegos
+in APPPATH\Views\Juegos\editar.php on line 10.
+ 1 APPPATH\Views\Juegos\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Juegos', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 07:11:15 --> syntax error, unexpected token ";"
+in APPPATH\Views\Juegos\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 3 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 17:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 17:08:41 --> syntax error, unexpected token ";"
+in APPPATH\Views\Juegos\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 3 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 17:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 17:12:35 --> Attempt to read property "idResena" on array
+in APPPATH\Views\reseñas\mostrar.php on line 69.
+ 1 APPPATH\Views\reseñas\mostrar.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idResena" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\reseñas\\mostrar.php', 69)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\reseñas\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reseñas/mostrar', [], true)
+ 5 APPPATH\Controllers\Resenas.php(20): view('reseñas/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 17:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 17:12:51 --> Invalid file: "reseñas/buscar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reseñas/buscar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reseñas/buscar', [], true)
+ 3 APPPATH\Controllers\Resenas.php(121): view('reseñas/buscar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->buscar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 17:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 17:25:25 --> Undefined variable $consulta
+in APPPATH\Views\Juegos\mostrar.php on line 96.
+ 1 APPPATH\Views\Juegos\mostrar.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $consulta', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar.php', 96)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/mostrar', [], true)
+ 5 APPPATH\Controllers\Juego.php(25): view('Juegos/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 17:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 17:28:54 --> Undefined property: stdClass::$idJuego
+in APPPATH\Views\Juegos\mostrar.php on line 96.
+ 1 APPPATH\Views\Juegos\mostrar.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idJuego', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar.php', 96)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/mostrar', [], true)
+ 5 APPPATH\Controllers\Juego.php(25): view('Juegos/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 17:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 17:29:18 --> Undefined property: stdClass::$id
+in APPPATH\Views\Juegos\mostrar.php on line 96.
+ 1 APPPATH\Views\Juegos\mostrar.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar.php', 96)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/mostrar', [], true)
+ 5 APPPATH\Controllers\Juego.php(25): view('Juegos/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 17:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 17:30:45 --> Undefined property: stdClass::$idJuego
+in APPPATH\Views\Juegos\mostrar.php on line 96.
+ 1 APPPATH\Views\Juegos\mostrar.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idJuego', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar.php', 96)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/mostrar', [], true)
+ 5 APPPATH\Controllers\Juego.php(25): view('Juegos/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 17:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 17:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 17:59:19 --> Undefined variable $Juegos
+in APPPATH\Views\Juegos\editar.php on line 10.
+ 1 APPPATH\Views\Juegos\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Juegos', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:09:47 --> Undefined variable $Juegos
+in APPPATH\Views\Juegos\editar.php on line 10.
+ 1 APPPATH\Views\Juegos\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Juegos', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 19:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 19:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 19:11:18 --> Undefined variable $Juego
+in APPPATH\Views\Juegos\editar.php on line 10.
+ 1 APPPATH\Views\Juegos\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Juego', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:12:01 --> Attempt to read property "descripcion" on array
+in APPPATH\Views\Juegos\editar.php on line 10.
+ 1 APPPATH\Views\Juegos\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "descripcion" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 19:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 19:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 19:12:07 --> Attempt to read property "descripcion" on array
+in APPPATH\Views\Juegos\editar.php on line 10.
+ 1 APPPATH\Views\Juegos\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "descripcion" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:12:47 --> Attempt to read property "descripcion" on array
+in APPPATH\Views\Juegos\editar.php on line 10.
+ 1 APPPATH\Views\Juegos\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "descripcion" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:13:36 --> Attempt to read property "descripcion" on array
+in APPPATH\Views\Juegos\editar.php on line 10.
+ 1 APPPATH\Views\Juegos\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "descripcion" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 19:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 19:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 19:13:42 --> Attempt to read property "descripcion" on array
+in APPPATH\Views\Juegos\editar.php on line 10.
+ 1 APPPATH\Views\Juegos\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "descripcion" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 19:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 19:14:02 --> Attempt to read property "descripcion" on array
+in APPPATH\Views\Juegos\editar.php on line 10.
+ 1 APPPATH\Views\Juegos\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "descripcion" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:14:20 --> Attempt to read property "nombre" on array
+in APPPATH\Views\Juegos\editar.php on line 10.
+ 1 APPPATH\Views\Juegos\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 19:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 19:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 19:18:02 --> Attempt to read property "idjuego" on array
+in APPPATH\Views\Juegos\editar.php on line 9.
+ 1 APPPATH\Views\Juegos\editar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idjuego" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:18:13 --> Attempt to read property "idJuego" on array
+in APPPATH\Views\Juegos\editar.php on line 9.
+ 1 APPPATH\Views\Juegos\editar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idJuego" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 19:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 19:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 19:18:17 --> Attempt to read property "idJuego" on array
+in APPPATH\Views\Juegos\editar.php on line 9.
+ 1 APPPATH\Views\Juegos\editar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idJuego" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:20:10 --> Undefined variable $Juegos
+in APPPATH\Views\Juegos\editar.php on line 9.
+ 1 APPPATH\Views\Juegos\editar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Juegos', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:20:35 --> Attempt to read property "idJuego" on array
+in APPPATH\Views\Juegos\editar.php on line 9.
+ 1 APPPATH\Views\Juegos\editar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idJuego" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:20:49 --> Attempt to read property "idjuego" on array
+in APPPATH\Views\Juegos\editar.php on line 9.
+ 1 APPPATH\Views\Juegos\editar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idjuego" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:21:08 --> Undefined variable $Juegos
+in APPPATH\Views\Juegos\editar.php on line 9.
+ 1 APPPATH\Views\Juegos\editar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Juegos', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:22:00 --> Attempt to read property "idjuego" on array
+in APPPATH\Views\Juegos\editar.php on line 9.
+ 1 APPPATH\Views\Juegos\editar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idjuego" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:22:54 --> Undefined variable $Juego
+in APPPATH\Views\Juegos\editar.php on line 21.
+ 1 APPPATH\Views\Juegos\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Juego', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:24:10 --> Undefined property: stdClass::$direccion
+in APPPATH\Views\Juegos\editar.php on line 122.
+ 1 APPPATH\Views\Juegos\editar.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$direccion', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 122)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:25:03 --> Undefined property: stdClass::$direccion
+in APPPATH\Views\Juegos\editar.php on line 122.
+ 1 APPPATH\Views\Juegos\editar.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$direccion', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php', 122)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/editar', [], true)
+ 5 APPPATH\Controllers\Juego.php(103): view('Juegos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:27:33 --> Undefined array key "imagen"
+in APPPATH\Controllers\Juego.php on line 109.
+ 1 APPPATH\Controllers\Juego.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Controllers\\Juego.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:30:02 --> Undefined array key "imagen"
+in APPPATH\Controllers\Juego.php on line 109.
+ 1 APPPATH\Controllers\Juego.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Controllers\\Juego.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:30:58 --> Undefined array key "imagen"
+in APPPATH\Controllers\Juego.php on line 109.
+ 1 APPPATH\Controllers\Juego.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Controllers\\Juego.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:33:31 --> Undefined array key "imagen"
+in APPPATH\Controllers\Juego.php on line 109.
+ 1 APPPATH\Controllers\Juego.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Controllers\\Juego.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:42:58 --> Undefined array key "imagen"
+in APPPATH\Controllers\Juego.php on line 109.
+ 1 APPPATH\Controllers\Juego.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Controllers\\Juego.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:44:18 --> Undefined array key "imagen"
+in APPPATH\Controllers\Juego.php on line 109.
+ 1 APPPATH\Controllers\Juego.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Controllers\\Juego.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:44:24 --> Undefined array key "genero"
+in APPPATH\Controllers\Juego.php on line 113.
+ 1 APPPATH\Controllers\Juego.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "genero"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Controllers\\Juego.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:45:05 --> Undefined array key "genero"
+in APPPATH\Controllers\Juego.php on line 113.
+ 1 APPPATH\Controllers\Juego.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "genero"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Controllers\\Juego.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:45:11 --> Undefined array key "idJuego"
+in APPPATH\Controllers\Juego.php on line 120.
+ 1 APPPATH\Controllers\Juego.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idJuego"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Controllers\\Juego.php', 120)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 19:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 19:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 19:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 19:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 19:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 19:53:21 --> Attempt to read property "idResena" on array
+in APPPATH\Views\reseñas\mostrar.php on line 69.
+ 1 APPPATH\Views\reseñas\mostrar.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idResena" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\reseñas\\mostrar.php', 69)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\reseñas\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reseñas/mostrar', [], true)
+ 5 APPPATH\Controllers\Resenas.php(20): view('reseñas/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 19:53:33 --> Attempt to read property "idResena" on array
+in APPPATH\Views\reseñas\mostrar.php on line 69.
+ 1 APPPATH\Views\reseñas\mostrar.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idResena" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\reseñas\\mostrar.php', 69)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\reseñas\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reseñas/mostrar', [], true)
+ 5 APPPATH\Controllers\Resenas.php(20): view('reseñas/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 20:02:33 --> Undefined variable $idJuego
+in APPPATH\Controllers\Resenas.php on line 77.
+ 1 APPPATH\Controllers\Resenas.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idJuego', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Controllers\\Resenas.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->editar('5')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 20:17:11 --> Undefined variable $idJuego
+in APPPATH\Controllers\Resenas.php on line 77.
+ 1 APPPATH\Controllers\Resenas.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idJuego', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Controllers\\Resenas.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->editar('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 20:17:40 --> Undefined variable $idResena
+in APPPATH\Controllers\Resenas.php on line 77.
+ 1 APPPATH\Controllers\Resenas.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idResena', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Controllers\\Resenas.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->editar('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 20:17:52 --> Undefined variable $resena
+in APPPATH\Views\reseñas\editar.php on line 8.
+ 1 APPPATH\Views\reseñas\editar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resena', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\reseñas\\editar.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\reseñas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reseñas/editar', [], true)
+ 5 APPPATH\Controllers\Resenas.php(82): view('reseñas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 20:18:06 --> Undefined variable $adoptador
+in APPPATH\Views\reseñas\editar.php on line 11.
+ 1 APPPATH\Views\reseñas\editar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $adoptador', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\reseñas\\editar.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\reseñas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reseñas/editar', [], true)
+ 5 APPPATH\Controllers\Resenas.php(82): view('reseñas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 20:18:25 --> Undefined variable $juegos
+in APPPATH\Views\reseñas\editar.php on line 22.
+ 1 APPPATH\Views\reseñas\editar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $juegos', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\reseñas\\editar.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\reseñas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reseñas/editar', [], true)
+ 5 APPPATH\Controllers\Resenas.php(82): view('reseñas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 20:20:01 --> Undefined variable $adoptador
+in APPPATH\Views\reseñas\editar.php on line 46.
+ 1 APPPATH\Views\reseñas\editar.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $adoptador', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\reseñas\\editar.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\reseñas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reseñas/editar', [], true)
+ 5 APPPATH\Controllers\Resenas.php(82): view('reseñas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 20:22:11 --> Undefined array key "imagen"
+in APPPATH\Controllers\Resenas.php on line 88.
+ 1 APPPATH\Controllers\Resenas.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Controllers\\Resenas.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 20:30:34 --> Undefined array key "idResena"
+in APPPATH\Controllers\Resenas.php on line 93.
+ 1 APPPATH\Controllers\Resenas.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idResena"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Controllers\\Resenas.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 20:30:54 --> Undefined array key "idresena"
+in APPPATH\Controllers\Resenas.php on line 93.
+ 1 APPPATH\Controllers\Resenas.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idresena"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Controllers\\Resenas.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 20:33:19 --> Undefined array key "idResena"
+in APPPATH\Controllers\Resenas.php on line 94.
+ 1 APPPATH\Controllers\Resenas.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idResena"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Controllers\\Resenas.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 20:38:57 --> Undefined array key "idResena"
+in APPPATH\Controllers\Resenas.php on line 94.
+ 1 APPPATH\Controllers\Resenas.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idResena"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Controllers\\Resenas.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-04 20:51:31 --> Undefined array key "idResena"
+in APPPATH\Controllers\Resenas.php on line 94.
+ 1 APPPATH\Controllers\Resenas.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idResena"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Controllers\\Resenas.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 20:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 20:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 21:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 21:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 21:08:17 --> Invalid file: "reseñas/buscar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reseñas/buscar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reseñas/buscar', [], true)
+ 3 APPPATH\Controllers\Resenas.php(115): view('reseñas/buscar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->buscar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-04 21:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 21:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 21:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

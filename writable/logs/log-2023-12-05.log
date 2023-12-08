@@ -1,0 +1,683 @@
+INFO - 2023-12-05 04:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 04:21:11 --> Undefined property: stdClass::$categoria
+in APPPATH\Views\Juegos\mostrar.php on line 92.
+ 1 APPPATH\Views\Juegos\mostrar.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$categoria', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/mostrar', [], true)
+ 5 APPPATH\Controllers\Juego.php(25): view('Juegos/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-05 04:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 08:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 08:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 08:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 08:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 08:39:01 --> Invalid file: "reseñas/buscar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reseñas/buscar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reseñas/buscar', [], true)
+ 3 APPPATH\Controllers\Resenas.php(115): view('reseñas/buscar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->buscar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-05 09:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 09:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 09:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 09:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 09:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 09:51:21 --> Undefined variable $Juegos
+in APPPATH\Views\Ventas\agregar.php on line 28.
+ 1 APPPATH\Views\Ventas\agregar.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Juegos', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(59): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 09:55:23 --> Invalid file: "Ventas/agregar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Ventas/agregar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 3 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 09:58:00 --> Invalid file: "Ventas/agregar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Ventas/agregar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 3 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 09:59:38 --> Invalid file: "Ventas/agregar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Ventas/agregar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 3 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 09:59:40 --> Invalid file: "Ventas/agregar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Ventas/agregar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 3 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 10:00:14 --> Invalid file: "Ventas/agregar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Ventas/agregar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 3 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-05 10:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 10:08:57 --> Undefined variable $resenas
+in APPPATH\Views\Ventas\agregar.php on line 8.
+ 1 APPPATH\Views\Ventas\agregar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resenas', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 10:15:28 --> Undefined variable $resenas
+in APPPATH\Views\Ventas\agregar.php on line 8.
+ 1 APPPATH\Views\Ventas\agregar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resenas', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 10:16:05 --> Attempt to read property "idVenta" on array
+in APPPATH\Views\Ventas\agregar.php on line 8.
+ 1 APPPATH\Views\Ventas\agregar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idVenta" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 10:16:28 --> Undefined variable $Ventas
+in APPPATH\Views\Ventas\agregar.php on line 8.
+ 1 APPPATH\Views\Ventas\agregar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Ventas', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 10:17:17 --> Undefined variable $juegos
+in APPPATH\Views\Ventas\agregar.php on line 11.
+ 1 APPPATH\Views\Ventas\agregar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $juegos', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 10:18:29 --> Attempt to read property "imagen" on array
+in APPPATH\Views\Ventas\agregar.php on line 11.
+ 1 APPPATH\Views\Ventas\agregar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 10:29:01 --> Attempt to read property "imagen" on array
+in APPPATH\Views\Ventas\agregar.php on line 11.
+ 1 APPPATH\Views\Ventas\agregar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 10:29:26 --> Attempt to read property "imagen" on array
+in APPPATH\Views\Ventas\agregar.php on line 11.
+ 1 APPPATH\Views\Ventas\agregar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 10:29:41 --> Attempt to read property "imagen" on array
+in APPPATH\Views\Ventas\agregar.php on line 11.
+ 1 APPPATH\Views\Ventas\agregar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 10:29:47 --> Attempt to read property "imagen" on array
+in APPPATH\Views\Ventas\agregar.php on line 11.
+ 1 APPPATH\Views\Ventas\agregar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 10:30:07 --> Attempt to read property "nombre" on array
+in APPPATH\Views\Ventas\agregar.php on line 13.
+ 1 APPPATH\Views\Ventas\agregar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 10:30:19 --> Attempt to read property "nombre" on array
+in APPPATH\Views\Ventas\agregar.php on line 13.
+ 1 APPPATH\Views\Ventas\agregar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 10:38:36 --> Attempt to read property "imagen" on array
+in APPPATH\Views\Ventas\agregar.php on line 16.
+ 1 APPPATH\Views\Ventas\agregar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 10:39:30 --> Undefined variable $Juego
+in APPPATH\Views\Ventas\agregar.php on line 16.
+ 1 APPPATH\Views\Ventas\agregar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Juego', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 10:40:01 --> Attempt to read property "imagen" on array
+in APPPATH\Views\Ventas\agregar.php on line 16.
+ 1 APPPATH\Views\Ventas\agregar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 10:42:20 --> Undefined array key "imagen"
+in APPPATH\Views\Ventas\agregar.php on line 17.
+ 1 APPPATH\Views\Ventas\agregar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 11:40:33 --> syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+in APPPATH\Views\Ventas\agregar.php on line 20.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 3 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 11:44:24 --> Attempt to read property "imagen" on array
+in APPPATH\Views\Ventas\agregar.php on line 17.
+ 1 APPPATH\Views\Ventas\agregar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 11:50:13 --> Undefined array key "imagen"
+in APPPATH\Views\Ventas\agregar.php on line 17.
+ 1 APPPATH\Views\Ventas\agregar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 11:50:14 --> Undefined array key "imagen"
+in APPPATH\Views\Ventas\agregar.php on line 17.
+ 1 APPPATH\Views\Ventas\agregar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-05 11:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 16:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 16:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 16:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 16:36:36 --> Undefined variable $ventas
+in APPPATH\Views\Ventas\agregar.php on line 17.
+ 1 APPPATH\Views\Ventas\agregar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ventas', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Resenas.php(44): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->agregar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 16:37:38 --> Undefined variable $ventas
+in APPPATH\Views\Ventas\agregar.php on line 17.
+ 1 APPPATH\Views\Ventas\agregar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ventas', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Resenas.php(44): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->agregar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 16:38:59 --> Undefined variable $ventas
+in APPPATH\Views\Ventas\mostrar.php on line 29.
+ 1 APPPATH\Views\Ventas\mostrar.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ventas', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\mostrar.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/mostrar', [], true)
+ 5 APPPATH\Controllers\Resenas.php(20): view('Ventas/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Resenas->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resenas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-05 16:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 16:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 16:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 16:56:56 --> Undefined array key "imagen"
+in APPPATH\Views\Ventas\agregar.php on line 17.
+ 1 APPPATH\Views\Ventas\agregar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-05 17:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 17:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 17:16:03 --> Undefined array key "imagen"
+in APPPATH\Views\Ventas\agregar.php on line 17.
+ 1 APPPATH\Views\Ventas\agregar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 17:18:24 --> Attempt to read property "imagen" on array
+in APPPATH\Views\Ventas\agregar.php on line 17.
+ 1 APPPATH\Views\Ventas\agregar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 17:18:46 --> Attempt to read property "imagen" on array
+in APPPATH\Views\Ventas\agregar.php on line 17.
+ 1 APPPATH\Views\Ventas\agregar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 17:18:55 --> Undefined variable $Juegos
+in APPPATH\Views\Ventas\agregar.php on line 17.
+ 1 APPPATH\Views\Ventas\agregar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Juegos', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 17:19:10 --> Undefined variable $Juegos
+in APPPATH\Views\Ventas\agregar.php on line 17.
+ 1 APPPATH\Views\Ventas\agregar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Juegos', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 17:20:41 --> Attempt to read property "imagen" on array
+in APPPATH\Views\Ventas\agregar.php on line 17.
+ 1 APPPATH\Views\Ventas\agregar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 17:21:31 --> Attempt to read property "Imagen" on array
+in APPPATH\Views\Ventas\agregar.php on line 17.
+ 1 APPPATH\Views\Ventas\agregar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Imagen" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 17:21:37 --> Attempt to read property "imagen" on array
+in APPPATH\Views\Ventas\agregar.php on line 17.
+ 1 APPPATH\Views\Ventas\agregar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 17:22:14 --> Attempt to read property "imagen" on array
+in APPPATH\Views\Ventas\agregar.php on line 17.
+ 1 APPPATH\Views\Ventas\agregar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 17:23:40 --> Undefined property: stdClass::$fecha_venta
+in APPPATH\Views\Ventas\agregar.php on line 23.
+ 1 APPPATH\Views\Ventas\agregar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$fecha_venta', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 17:24:03 --> Attempt to read property "imagen" on null
+in APPPATH\Views\Ventas\agregar.php on line 17.
+ 1 APPPATH\Views\Ventas\agregar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on null', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Venta.php(49): view('Ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Venta->agregar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 17:42:19 --> Undefined variable $juegos
+in APPPATH\Views\usuario\login.php on line 27.
+ 1 APPPATH\Views\usuario\login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $juegos', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\usuario\\login.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\usuario\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuario/login', [], true)
+ 5 APPPATH\Controllers\UserController.php(16): view('usuario/login')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 17:42:57 --> Undefined variable $Juegos
+in APPPATH\Views\usuario\login.php on line 27.
+ 1 APPPATH\Views\usuario\login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Juegos', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\usuario\\login.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\usuario\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuario/login', [], true)
+ 5 APPPATH\Controllers\UserController.php(16): view('usuario/login')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-05 17:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 17:47:31 --> Undefined constant "App\Controllers\session"
+in APPPATH\Controllers\UserController.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+INFO - 2023-12-05 17:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 17:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 17:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 17:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 17:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 17:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 17:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 17:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 17:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 17:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 17:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 18:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 18:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 18:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 18:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 18:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 18:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 19:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 19:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 19:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 19:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 19:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 19:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 19:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 19:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 19:59:33 --> Undefined variable $ventas
+in APPPATH\Views\Juegos\mostrar2.php on line 17.
+ 1 APPPATH\Views\Juegos\mostrar2.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ventas', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar2.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar2.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/mostrar2', [], true)
+ 5 APPPATH\Controllers\Juego.php(36): view('Juegos/mostrar2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->mostrar2('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 20:05:02 --> Undefined variable $Juegos
+in APPPATH\Views\Juegos\mostrar2.php on line 17.
+ 1 APPPATH\Views\Juegos\mostrar2.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Juegos', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar2.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar2.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/mostrar2', [], true)
+ 5 APPPATH\Controllers\Juego.php(36): view('Juegos/mostrar2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->mostrar2('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 20:05:09 --> Attempt to read property "imagen" on array
+in APPPATH\Views\Juegos\mostrar2.php on line 17.
+ 1 APPPATH\Views\Juegos\mostrar2.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar2.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar2.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/mostrar2', [], true)
+ 5 APPPATH\Controllers\Juego.php(36): view('Juegos/mostrar2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->mostrar2('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 20:05:14 --> Undefined variable $Juego
+in APPPATH\Views\Juegos\mostrar2.php on line 17.
+ 1 APPPATH\Views\Juegos\mostrar2.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Juego', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar2.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar2.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/mostrar2', [], true)
+ 5 APPPATH\Controllers\Juego.php(36): view('Juegos/mostrar2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->mostrar2('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 20:06:28 --> Attempt to read property "imagen" on array
+in APPPATH\Views\Juegos\mostrar2.php on line 17.
+ 1 APPPATH\Views\Juegos\mostrar2.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar2.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar2.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/mostrar2', [], true)
+ 5 APPPATH\Controllers\Juego.php(36): view('Juegos/mostrar2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->mostrar2('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 20:08:30 --> Undefined variable $Juego
+in APPPATH\Views\Juegos\mostrar2.php on line 17.
+ 1 APPPATH\Views\Juegos\mostrar2.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Juego', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar2.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar2.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/mostrar2', [], true)
+ 5 APPPATH\Controllers\Juego.php(36): view('Juegos/mostrar2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->mostrar2('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 20:08:36 --> Attempt to read property "imagen" on array
+in APPPATH\Views\Juegos\mostrar2.php on line 17.
+ 1 APPPATH\Views\Juegos\mostrar2.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar2.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar2.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/mostrar2', [], true)
+ 5 APPPATH\Controllers\Juego.php(36): view('Juegos/mostrar2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->mostrar2('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-12-05 20:09:36 --> Attempt to read property "imagen" on array
+in APPPATH\Views\Juegos\mostrar2.php on line 17.
+ 1 APPPATH\Views\Juegos\mostrar2.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar2.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar2.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/mostrar2', [], true)
+ 5 APPPATH\Controllers\Juego.php(36): view('Juegos/mostrar2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->mostrar2('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')

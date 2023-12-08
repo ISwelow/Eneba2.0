@@ -1,0 +1,36 @@
+CRITICAL - 2023-10-12 17:52:53 --> syntax error, unexpected token "<"
+in APPPATH\Views\common\menu.php on line 10.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('common/menu', [], true)
+ 3 APPPATH\Controllers\juegoController.php(28): view('common/menu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\juegoController->agregarjuegos()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\juegoController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-10-12 17:53:17 --> syntax error, unexpected token "<"
+in APPPATH\Views\common\menu.php on line 10.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('common/menu', [], true)
+ 3 APPPATH\Controllers\juegoController.php(28): view('common/menu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\juegoController->agregarjuegos()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\juegoController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-10-12 17:53:59 --> syntax error, unexpected token "<"
+in APPPATH\Views\common\menu.php on line 10.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('common/menu', [], true)
+ 3 APPPATH\Controllers\juegoController.php(28): view('common/menu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\juegoController->agregarjuegos()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\juegoController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-10-12 18:02:12 --> Cannot redeclare App\Controllers\juegoController::Index()
+in APPPATH\Controllers\juegoController.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-12 18:02:42 --> Cannot redeclare App\Controllers\juegoController::index()
+in APPPATH\Controllers\juegoController.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

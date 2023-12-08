@@ -1,0 +1,110 @@
+CRITICAL - 2023-10-15 01:27:02 --> Invalid file: "Juegos/index1.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Juegos/index1.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/index1', [], true)
+ 3 APPPATH\Controllers\juegoController.php(19): view('Juegos/index1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\juegoController->index1()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\juegoController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-10-15 01:27:17 --> Invalid file: "Juegos/iniciar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Juegos/iniciar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/iniciar', [], true)
+ 3 APPPATH\Controllers\juegoController.php(28): view('Juegos/iniciar')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\juegoController->iniciar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\juegoController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-10-15 04:19:27 --> Invalid file: "Juegos/agregarjuegos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Juegos/agregarjuegos.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/agregarjuegos', [], true)
+ 3 APPPATH\Controllers\juegoController.php(68): view('Juegos/agregarjuegos')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\juegoController->agregarjuegos()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\juegoController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-10-15 04:20:30 --> Invalid file: "Juegos/agregarjuego.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Juegos/agregarjuego.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/agregarjuego', [], true)
+ 3 APPPATH\Controllers\juegoController.php(68): view('Juegos/agregarjuego')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\juegoController->agregarjuego()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\juegoController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-10-15 04:26:00 --> Invalid file: "Juegos/agregarjuego.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Juegos/agregarjuego.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/agregarjuego', [], true)
+ 3 APPPATH\Controllers\juegoController.php(68): view('Juegos/agregarjuego')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\juegoController->agregarjuego()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\juegoController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-10-15 04:35:18 --> Invalid file: "Juegos/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Juegos/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/index', [], true)
+ 3 APPPATH\Controllers\juegoController.php(47): view('Juegos/index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\juegoController->mostrar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\juegoController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-10-15 04:39:24 --> Invalid file: "Juegos/agregarjuego.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Juegos/agregarjuego.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/agregarjuego', [], true)
+ 3 APPPATH\Controllers\juegoController.php(68): view('Juegos/agregarjuego')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\juegoController->agregarjuego()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\juegoController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-10-15 04:39:27 --> Invalid file: "Juegos/agregarcategoria.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Juegos/agregarcategoria.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/agregarcategoria', [], true)
+ 3 APPPATH\Controllers\juegoController.php(78): view('Juegos/agregarcategoria')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\juegoController->agregarcategoria()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\juegoController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-10-15 04:39:36 --> Invalid file: "Juegos/agregarjuego.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Juegos/agregarjuego.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/agregarjuego', [], true)
+ 3 APPPATH\Controllers\juegoController.php(68): view('Juegos/agregarjuego')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\juegoController->agregarjuego()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\juegoController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-10-15 04:41:08 --> Invalid file: "Juegos/iniciar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Juegos/iniciar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/iniciar', [], true)
+ 3 APPPATH\Controllers\juegoController.php(28): view('Juegos/iniciar')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\juegoController->iniciar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\juegoController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-10-15 04:41:52 --> Invalid file: "Juegos/iniciar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Juegos/iniciar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/iniciar', [], true)
+ 3 APPPATH\Controllers\juegoController.php(28): view('Juegos/iniciar')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\juegoController->iniciar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\juegoController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')

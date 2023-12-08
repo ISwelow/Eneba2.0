@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Inicio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .description {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin: 10px;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+
+        .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .box {
+            width: calc(25% - 20px); /* 25% - (margin * 2) para que haya espacio entre las cajas */
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .box-description {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        .show-more-button {
+            padding: 15px 30px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin: 20px;
+        }
+
+        .show-more-button:hover {
+            background-color: #555;
+        }
+    </style>
+<body>
+    <div class="header">
+        <h1>ENEBA 2.0</h1>
+        <p class="description">Esta es la copia de la copia de la copia de otra página de juegos OwO.</p>
+    </div>
+
+    <div class="box-container">
+        <?php foreach ($juegos as $Juego): ?>
+            <div class="box">
+                <a href="<?=base_url('index.php/Ventas/agregar/'. $Juego->idjuego);?>"><img src='<?= $Juego->imagen ?>' alt="Imagen del juego" width="auto" height="100"></a>
+                <h2><?= $Juego->nombre ?></h2>
+                <p class="box-description"><?= $Juego->genero ?></p>
+                <p class="box-description"><?= $Juego->descripcion ?></p>
+                <p class="box-description"><?= $Juego->plataforma ?></p>
+                <p class="box-description"><?= $Juego->editor ?></p>
+                <p class="box-description"><?= $Juego->precio ?></p>
+                <p><a href="<?=base_url('index.php/Juegos/delete/'. $Juego->idjuego); ?>">Eliminar</a>
+                <a href="<?=base_url('index.php/Juegos/editar/'. $Juego->idjuego); ?>">Editar</a></p>
+                <div class="box-buttons">
+                    
+                </div>
+            </div>
+        <?php endforeach ?>
+    </div>
+
+    <br>
+
+    <a href="#" class="show-more-button">Mostrar Más</a>
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

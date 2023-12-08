@@ -1,0 +1,114 @@
+ERROR - 2023-11-13 11:59:20 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'proyecto', 3306, '', 0)
+#1 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\app\Controllers\Juego.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\CodeIgniter.php(919): App\Controllers\Juego->agregar()
+#8 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+#9 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\app\Controllers\Juego.php(26): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\CodeIgniter.php(919): App\Controllers\Juego->agregar()
+#7 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+#8 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\...')
+#11 {main}
+CRITICAL - 2023-11-13 11:59:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Juegos`
+WHERE `Juegos`.`deleted_at` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Juego.php(26): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->agregar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+ERROR - 2023-11-13 11:59:24 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'proyecto', 3306, '', 0)
+#1 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\app\Controllers\Juego.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\CodeIgniter.php(919): App\Controllers\Juego->agregar()
+#8 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+#9 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\app\Controllers\Juego.php(26): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\CodeIgniter.php(919): App\Controllers\Juego->agregar()
+#7 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+#8 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\jj190\OneDrive\Escritorio\eneba2.0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\...')
+#11 {main}
+CRITICAL - 2023-11-13 11:59:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Juegos`
+WHERE `Juegos`.`deleted_at` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Juego.php(26): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->agregar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-11-13 12:00:51 --> Undefined variable $dietas
+in APPPATH\Views\Juegos\mostrar.php on line 160.
+ 1 APPPATH\Views\Juegos\mostrar.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dietas', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/mostrar', [], true)
+ 5 APPPATH\Controllers\Juego.php(20): view('Juegos/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
+CRITICAL - 2023-11-13 12:02:44 --> Undefined property: stdClass::$tipo
+in APPPATH\Views\Juegos\mostrar.php on line 163.
+ 1 APPPATH\Views\Juegos\mostrar.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tipo', 'C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar.php', 163)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\app\\Views\\Juegos\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Juegos/mostrar', [], true)
+ 5 APPPATH\Controllers\Juego.php(20): view('Juegos/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Juego->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Juego))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jj190\\OneDrive\\Escritorio\\eneba2.0\\public\\index.php')
